@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Coleção de Filmes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Minha Coleção de Filmes</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#movies">Filmes</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Filtros -->
+    <div class="filters">
+      <button onclick="filterGenre('Romance')">Romance</button>
+      <button onclick="filterGenre('Comédia')">Comédia</button>
+      <button onclick="filterGenre('Terror')">Terror</button>
+      <button onclick="filterGenre('Ação')">Ação</button>
+      <button onclick="filterGenre('Todos')">Todos</button>
+    </div>
+
+    <!-- Grid de Filmes -->
+    <section id="movies" class="grid-container">
+      <!-- Os filmes serão renderizados automaticamente com JavaScript -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Minha Coleção de Filmes</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

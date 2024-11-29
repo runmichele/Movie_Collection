@@ -1,0 +1,110 @@
+/* Estilo Básico */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1c1c1c;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+nav a:hover,
+nav .active {
+  color: #a855f7;
+  border-bottom: 2px solid #a855f7;
+}
+
+/* Filtros */
+.filters {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.filters button {
+  background-color: #444;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  margin: 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.filters button:hover {
+  background-color: #a855f7;
+}
+
+/* Grid de Filmes */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Ajustado para quadros maiores */
+  gap: 1.5rem; /* Aumentado o espaçamento entre os quadros */
+  padding: 2rem;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border-radius: 12px; /* Mais bordas arredondadas */
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3); /* Sombra mais forte */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Aumenta o quadro ao passar o mouse */
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+  border-radius: 8px; /* Deixa a imagem arredondada */
+  max-width: 100%;
+  height: 200px; /* Imagem maior para maior destaque */
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.card h3 {
+  font-size: 1.1rem; /* Título maior */
+  margin: 0.5rem 0;
+}
+
+.card p {
+  font-size: 0.9rem; /* Texto ajustado */
+  margin: 0.3rem 0;
+}
+
+.rating, .status, .date {
+  font-size: 0.85rem; /* Ajuste de tamanho */
+  margin: 0.2rem 0;
+  color: #ccc;
+}
