@@ -1,5 +1,4 @@
-# Movie Collection 2024 🎥 ![image](https://github.com/user-attachments/assets/4f45bd22-7a61-4581-93cb-d8651e7575fc)
-
+# Movie Collection 2024 🎥
 
 Este é um projeto simples para organizar e exibir minha coleção de filmes assistidos em 2024.
 
@@ -18,3 +17,4 @@ Este é um projeto simples para organizar e exibir minha coleção de filmes ass
 1. Clone este repositório:
    ```bash
    git clone https://github.com/runmichele/Movie_Collection.git
+ ![image](https://github.com/user-attachments/assets/4f45bd22-7a61-4581-93cb-d8651e7575fc)
